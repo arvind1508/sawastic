@@ -1,6 +1,7 @@
 import Gallery from '@/components/Gallery';
 import SEO from '../components/SEO';
 import PreviousProjects from '@/components/Projects';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -22,12 +23,12 @@ export default function Home() {
               skilled team uses the latest technology to deliver exceptional results with a focus
               on quality and efficiency.
             </p>
-            <a
+            <Link
               href="/contact"
               className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition duration-300 mt-6"
             >
               Get a Quote
-            </a>
+            </Link>
           </div>
 
           {/* Right Side - Image */}
