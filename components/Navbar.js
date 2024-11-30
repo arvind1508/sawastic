@@ -24,7 +24,7 @@ export default function Navbar() {
             alt="Swastik Fabrication Logo"
             width={100}
             height={100}
-            className="rounded"
+            className="rounded-full"
           />
           <span className="text-xl font-bold group-hover:text-teal-400 transition">
             Swastik Fabrication
