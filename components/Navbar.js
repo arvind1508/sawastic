@@ -20,7 +20,7 @@ export default function Navbar() {
         {/* Logo and Title */}
         <Link href="/" className="flex items-center space-x-3 group">
           <Image
-            src="/logo.jpeg"
+            src="https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732976900/swastik/wkqvyx2aynsjzketfnph.jpg"
             alt="Swastik Fabrication Logo"
             width={100}
             height={100}

@@ -4,31 +4,31 @@ export default function Services() {
         title: "Catch Column",
         description:
           "Expert design, fabrication, and installation of catch columns that provide reliable support for structural projects.",
-        image: "https://via.placeholder.com/300x200?text=Catch+Column",
+        image: "https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732976474/swastik/x6tnvq1nrhgmijplgbcp.png",
       },
       {
         title: "Fabrication & Erection",
         description:
           "Comprehensive fabrication and erection services, ensuring stability and precision for industrial structures.",
-        image: "https://via.placeholder.com/300x200?text=Fabrication+Erection",
+        image: "https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732976754/swastik/vtycqlf7xqtwsgud2o81.jpg",
       },
       {
         title: "Sheet Roofing",
         description:
           "Durable and weather-resistant sheet roofing solutions for both commercial and residential projects.",
-        image: "https://via.placeholder.com/300x200?text=Sheet+Roofing",
+        image: "https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732975690/swastik/xyozk3j9ulqzlyuzl3io.jpg",
       },
       {
         title: "Rolling Mill",
         description:
           "High-quality fabrication and installation of rolling mill systems tailored to your manufacturing needs.",
-        image: "https://via.placeholder.com/300x200?text=Rolling+Mill",
+        image: "https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732976472/swastik/ggu0padypteqb5pxhigh.jpg",
       },
       {
         title: "Bhatthi (Furnace)",
         description:
           "Design, construction, and installation of efficient furnaces for various industrial applications.",
-        image: "https://via.placeholder.com/300x200?text=Bhatthi",
+        image: "https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732976473/swastik/y3hmdxhehg8pvh2r98n0.jpg",
       },
     ];
   
