@@ -2,11 +2,11 @@ import Image from 'next/image';
 
 export default function Gallery() {
   const images = [
-    '/gallery/image1.jpeg',
-    '/gallery/image2.jpeg',
-    '/gallery/image3.jpeg',
-    '/gallery/image4.jpeg',
-    '/gallery/image5.jpeg',
+    'https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732975680/swastik/jfkxxzgb95owrs5zrdwy.jpg',
+    'https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732975682/swastik/datjfqsf8qt8lbliouso.jpg',
+    'https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732975683/swastik/qf8ccxk0w08upfrejkil.jpg',
+    'https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732975689/swastik/yjeeirgx7vrbvui1rfyz.jpg',
+    'https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732975690/swastik/gtr4rhofea3utqupdar3.jpg',
   ];
 
   return (

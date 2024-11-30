@@ -42,7 +42,7 @@ export default function Home() {
           {/* Right Side - Image */}
           <div className="md:w-1/2 mt-8 md:mt-0">
             <img
-              src="/gallery/Hero.webp"
+              src="https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732975681/swastik/cbwooenj5yn7zyodufdq.webp"
               alt="Fabrication Services"
               className="w-full h-auto rounded-lg shadow-md"
             />

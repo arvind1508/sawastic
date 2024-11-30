@@ -7,21 +7,21 @@ const projects = [
     title: "Delta Steel Re-Rolling Mills: Premier Solutions for Steel Fabrication",
     description:
       "Completed a large-scale steel structure fabrication project for an industrial plant in Ahmedabad.",
-    image: "/gallery/image7.webp",
+    image: "https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732975689/swastik/fuqymjjpzrrwrr8csoc1.webp",
   },
   {
     id: 2,
     title: "Rolling Mill Installation",
     description:
       "Delivered a high-precision rolling mill project for a leading manufacturing client.",
-    image: "/gallery/25808.jpg",
+    image: "https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732975698/swastik/mpo70zum1oai5uzzahfz.jpg",
   },
   {
     id: 3,
     title: "Sheet Roofing",
     description:
       "Successfully executed roofing solutions for a commercial warehouse.",
-    image: "/gallery/image4.jpeg",
+    image: "https://res.cloudinary.com/dlqxpkg7h/image/upload/v1732975683/swastik/qf8ccxk0w08upfrejkil.jpg",
   },
 ];
 
