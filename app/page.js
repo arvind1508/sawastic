@@ -7,7 +7,7 @@ import OfferTypes from '@/components/OfferTypes';
 export default function Home() {
   return (
     <>
-      <div className=" py-16 px-6 md:px-20">
+      <div className="py-16 px-6 md:px-20">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
           {/* Left Side - Text */}
           <div className="md:w-1/2 text-left md:pr-10 space-y-4">
@@ -19,8 +19,17 @@ export default function Home() {
             </p>
             <p className="text-lg text-gray-700">
               With years of experience and advanced technology, we excel in custom fabrication, welding, repair services, and large-scale industrial projects. Our commitment to excellence ensures that every project is completed with the highest standards of craftsmanship and attention to detail.
-
               Explore our diverse services and discover how we can bring your vision to life with precision, quality, and reliability.
+            </p>
+            <p className="text-lg text-gray-700 font-semibold mt-4">
+              <span className="text-blue-600">Need Assistance? </span>Call us now at{' '}
+              <a href="tel:+919824896162" className="text-blue-600 hover:underline font-semibold">
+                +91 9824896162
+              </a>{' '}
+              <span className="text-lg text-gray-700">or</span>{' '}
+              <a href="tel:+916354999576" className="text-blue-600 hover:underline font-semibold">
+                +91 6354999576
+              </a>
             </p>
             <Link
               href="/contact"
