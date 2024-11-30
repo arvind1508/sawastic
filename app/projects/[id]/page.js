@@ -1,6 +1,4 @@
-'use client'
 import { notFound } from 'next/navigation';
-import { use } from 'react';
 import Image from 'next/image';
 
 // Static list of projects for demonstration
@@ -31,9 +29,15 @@ const projects = [
   },
 ];
 
+// Generate static params to pre-render dynamic pages
+export async function generateStaticParams() {
+  return projects.map((project) => ({
+    id: project.id.toString(), // Ensure the ID is a string
+  }));
+}
+
 export default function ProjectDetail({ params }) {
-  // Unwrapping params using React.use()
-  const { id } = use(params);
+  const { id } = params;
 
   const project = projects.find((p) => p.id === parseInt(id));
 
