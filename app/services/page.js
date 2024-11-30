@@ -37,7 +37,7 @@ export default function Services() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-primary mb-8">Our Services</h2>
           <p className="text-lg text-gray-700 mb-12">
-            Swastika Fabrication offers a wide range of industrial and construction services, 
+            Swastik Fabrication offers a wide range of industrial and construction services, 
             ensuring quality and precision at every step. Here’s what we specialize in:
           </p>
   

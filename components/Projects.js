@@ -1,32 +1,33 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const projects = [
   {
     id: 1,
-    title: "Steel Structure Fabrication",
+    title: "Delta Steel Re-Rolling Mills: Premier Solutions for Steel Fabrication",
     description:
       "Completed a large-scale steel structure fabrication project for an industrial plant in Ahmedabad.",
-    image: "https://via.placeholder.com/300x200",
+    image: "/gallery/image7.webp",
   },
   {
     id: 2,
     title: "Rolling Mill Installation",
     description:
       "Delivered a high-precision rolling mill project for a leading manufacturing client.",
-    image: "https://via.placeholder.com/300x200",
+    image: "/gallery/25808.jpg",
   },
   {
     id: 3,
     title: "Sheet Roofing",
     description:
       "Successfully executed roofing solutions for a commercial warehouse.",
-    image: "https://via.placeholder.com/300x200",
+    image: "/gallery/image4.jpeg",
   },
 ];
 
 export default function PreviousProjects() {
   return (
-    <section className=" py-16 px-6">
+    <section className="py-16 px-6">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-10 text-gray-800">
           Our Previous Projects
@@ -37,16 +38,22 @@ export default function PreviousProjects() {
               key={project.id}
               className="bg-white rounded-lg shadow-md overflow-hidden"
             >
-              <Image
-                src={project.image}
-                alt={project.title}
-                width={300}
-                height={200}
-                className="w-full h-48 object-cover"
-              />
+              <Link href={`/projects/${project.id}`} className="hover:text-blue-600">
+
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  width={300}
+                  height={200}
+                  className="w-full h-48 object-cover"
+                />
+              </Link>
+
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-800">
-                  {project.title}
+                  <Link href={`/projects/${project.id}`} className="hover:text-blue-600">
+                    {project.title}
+                  </Link>
                 </h3>
                 <p className="text-gray-600 mt-2">{project.description}</p>
               </div>

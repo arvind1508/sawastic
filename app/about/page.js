@@ -8,7 +8,7 @@ export default function About() {
         <h1 className="text-3xl font-bold text-primary">About Us</h1>
         
         <p className="mt-4 text-lg text-gray-700">
-          At Swastika Fabrication, we bring over 10 years of experience in providing top-notch fabrication services across Ahmedabad.
+          At Swastik Fabrication, we bring over 10 years of experience in providing top-notch fabrication services across Ahmedabad.
           Our expertise and commitment to quality have made us a trusted name in the industry. We specialize in a wide range of services
           aimed at meeting the diverse needs of our clients.
         </p>
@@ -34,7 +34,7 @@ export default function About() {
         </ul>
 
         <p className="mt-6 text-lg text-gray-700">
-          We are committed to delivering the highest quality of service and excellence in all of our projects. Whether it’s for industrial applications or specialized construction needs, Swastika Fabrication is your go-to partner for reliable and efficient fabrication services.
+          We are committed to delivering the highest quality of service and excellence in all of our projects. Whether it’s for industrial applications or specialized construction needs, Swastik Fabrication is your go-to partner for reliable and efficient fabrication services.
         </p>
       </div>
     </>

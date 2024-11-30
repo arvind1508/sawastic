@@ -5,7 +5,7 @@ export default function Contact() {
       <div className="p-10 ">
         <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
           <h1 className="text-3xl font-bold text-gray-800 text-center mb-4">
-            Contact Swastika Fabrication
+            Contact Swastik Fabrication
           </h1>
           <p className="text-center text-gray-600 mb-6">
             We’d love to hear from you! Please fill out the form below, and our team will get in touch with you as soon as possible.

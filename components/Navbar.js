@@ -15,14 +15,14 @@ export default function Navbar() {
         {/* Logo and Title */}
         <Link href="/" className="flex items-center space-x-3 group">
           <Image
-            src="https://res.cloudinary.com/dlqxpkg7h/image/upload/c_thumb,w_200,g_face/v1732373060/ayrzw5swosfthanstvg6.png"
-            alt="Swastika Fabrication Logo"
-            width={50}
-            height={50}
-            className="rounded-full"
+            src="/logo.jpeg"
+            alt="Swastik Fabrication Logo"
+            width={100}
+            height={100}
+            className="rounded"
           />
           <span className="text-xl font-bold group-hover:text-teal-400 transition">
-            Swastika Fabrication
+            Swastik Fabrication
           </span>
         </Link>
 

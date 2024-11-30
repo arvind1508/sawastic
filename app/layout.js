@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Swastika Fabrication",
-  description: "Welcome to Swastika Fabrication",
+  title: "Swastik Fabrication",
+  description: "Welcome to Swastik Fabrication",
 };
 
 export default function RootLayout({ children }) {
