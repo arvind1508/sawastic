@@ -15,7 +15,7 @@ export default function Home() {
               Welcome to Swastik Fabrication
             </h1>
             <p className="text-lg text-gray-700">
-              At Swastik Fabrication, we specialize in providing high-quality, precision-driven steel fabrication services. Our team is dedicated to delivering custom solutions tailored to meet the unique requirements of every project, whether it's for commercial, industrial, or personal needs. We work with a variety of premium materials, including steel, aluminum, stainless steel, and custom alloys, to create durable and reliable products.
+              At Swastik Fabrication, we specialize in providing high-quality, precision-driven steel fabrication services. Our team is dedicated to delivering custom solutions tailored to meet the unique requirements of every project, whether it&apos;s for commercial, industrial, or personal needs. We work with a variety of premium materials, including steel, aluminum, stainless steel, and custom alloys, to create durable and reliable products.
             </p>
             <p className="text-lg text-gray-700">
               With years of experience and advanced technology, we excel in custom fabrication, welding, repair services, and large-scale industrial projects. Our commitment to excellence ensures that every project is completed with the highest standards of craftsmanship and attention to detail.
@@ -26,7 +26,7 @@ export default function Home() {
               <a href="tel:+919824896162" className="text-blue-600 hover:underline font-semibold">
                 +91 9824896162
               </a>{' '}
-              <span className="text-lg text-gray-700">or</span>{' '}
+              or{' '}
               <a href="tel:+916354999576" className="text-blue-600 hover:underline font-semibold">
                 +91 6354999576
               </a>
